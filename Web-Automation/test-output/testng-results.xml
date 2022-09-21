@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="60" passed="60" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-16T16:36:02 IST" name="Automatiion TEStNG" finished-at="2022-09-16T16:44:43 IST" duration-ms="520613">
+    <groups>
+    </groups>
+    <test started-at="2022-09-16T16:36:02 IST" name="AllScenarios Execution" finished-at="2022-09-16T16:44:43 IST" duration-ms="520613">
+      <class name="com.sgtesting.testngprototype.ModifyCustomerChromeDemo">
+        <test-method signature="launchBrowser()[pri:1, instance:com.sgtesting.testngprototype.ModifyCustomerChromeDemo@5ba3f27a]" started-at="2022-09-16T16:41:04 IST" name="launchBrowser" finished-at="2022-09-16T16:41:06 IST" duration-ms="2186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate()[pri:2, instance:com.sgtesting.testngprototype.ModifyCustomerChromeDemo@5ba3f27a]" started-at="2022-09-16T16:41:06 IST" name="navigate" finished-at="2022-09-16T16:41:12 IST" duration-ms="6662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.sgtesting.testngprototype.ModifyCustomerChromeDemo@5ba3f27a]" started-at="2022-09-16T16:41:12 IST" name="login" data-provider="loginDetails" finished-at="2022-09-16T16:41:15 IST" duration-ms="2479" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createCustomer(java.lang.String,java.lang.String)[pri:4, instance:com.sgtesting.testngprototype.ModifyCustomerChromeDemo@5ba3f27a]" started-at="2022-09-16T16:41:15 IST" name="createCustomer" data-provider="CustomerDetails" finished-at="2022-09-16T16:41:34 IST" duration-ms="19563" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LBRO Customer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LBRO IS SUBPARTNER OF THE BOSCH COMPANY WITH MANUFACTURES QUALITY PRODUCT AND PROVIDES GOOD BUSINESS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method signature="modifyCustomer(java.lang.String)[pri:5, instance:com.sgtesting.testngprototype.ModifyCustomerChromeDemo@5ba3f27a]" started-at="2022-09-16T16:41:34 IST" name="modifyCustomer" data-provider="modifiedCustomer" finished-at="2022-09-16T16:41:45 IST" duration-ms="10057" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LBRO REMODIFIED THE WHOLE BUSINESS PLAN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyCustomer -->
+        <test-method signature="DeleteCustomer()[pri:6, instance:com.sgtesting.testngprototype.ModifyCustomerChromeDemo@5ba3f27a]" started-at="2022-09-16T16:41:45 IST" name="DeleteCustomer" finished-at="2022-09-16T16:42:00 IST" duration-ms="15786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteCustomer -->
+        <test-method signature="logout()[pri:7, instance:com.sgtesting.testngprototype.ModifyCustomerChromeDemo@5ba3f27a]" started-at="2022-09-16T16:42:00 IST" name="logout" finished-at="2022-09-16T16:42:06 IST" duration-ms="5945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="closeBrowser()[pri:8, instance:com.sgtesting.testngprototype.ModifyCustomerChromeDemo@5ba3f27a]" started-at="2022-09-16T16:42:06 IST" name="closeBrowser" finished-at="2022-09-16T16:42:07 IST" duration-ms="1048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.sgtesting.testngprototype.ModifyCustomerChromeDemo -->
+      <class name="com.sgtesting.testngprototype.CreateUserScenariodemoChrome">
+        <test-method signature="launchBrowser()[pri:1, instance:com.sgtesting.testngprototype.CreateUserScenariodemoChrome@21e360a]" started-at="2022-09-16T16:40:16 IST" name="launchBrowser" finished-at="2022-09-16T16:40:19 IST" duration-ms="2559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate()[pri:2, instance:com.sgtesting.testngprototype.CreateUserScenariodemoChrome@21e360a]" started-at="2022-09-16T16:40:19 IST" name="navigate" finished-at="2022-09-16T16:40:25 IST" duration-ms="6496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.sgtesting.testngprototype.CreateUserScenariodemoChrome@21e360a]" started-at="2022-09-16T16:40:25 IST" name="login" data-provider="loginDetails" finished-at="2022-09-16T16:40:30 IST" duration-ms="4470" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.sgtesting.testngprototype.CreateUserScenariodemoChrome@21e360a]" started-at="2022-09-16T16:40:30 IST" name="createUser" data-provider="UserDetails" finished-at="2022-09-16T16:40:47 IST" duration-ms="16759" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[D]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DemoD@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[DemoD1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[DemoD#123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[DemoD#123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="deleteUserName()[pri:5, instance:com.sgtesting.testngprototype.CreateUserScenariodemoChrome@21e360a]" started-at="2022-09-16T16:40:47 IST" name="deleteUserName" finished-at="2022-09-16T16:40:57 IST" duration-ms="10552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserName -->
+        <test-method signature="logout()[pri:6, instance:com.sgtesting.testngprototype.CreateUserScenariodemoChrome@21e360a]" started-at="2022-09-16T16:40:57 IST" name="logout" finished-at="2022-09-16T16:41:03 IST" duration-ms="5525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="closeBrowser()[pri:7, instance:com.sgtesting.testngprototype.CreateUserScenariodemoChrome@21e360a]" started-at="2022-09-16T16:41:03 IST" name="closeBrowser" finished-at="2022-09-16T16:41:04 IST" duration-ms="901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.sgtesting.testngprototype.CreateUserScenariodemoChrome -->
+      <class name="com.sgtesting.testngprototype.ModifyProjectChromeDemo">
+        <test-method signature="launchBrowser()[pri:1, instance:com.sgtesting.testngprototype.ModifyProjectChromeDemo@58d75e99]" started-at="2022-09-16T16:42:07 IST" name="launchBrowser" finished-at="2022-09-16T16:42:09 IST" duration-ms="2147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate()[pri:2, instance:com.sgtesting.testngprototype.ModifyProjectChromeDemo@58d75e99]" started-at="2022-09-16T16:42:09 IST" name="navigate" finished-at="2022-09-16T16:42:16 IST" duration-ms="6307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.sgtesting.testngprototype.ModifyProjectChromeDemo@58d75e99]" started-at="2022-09-16T16:42:16 IST" name="login" data-provider="loginDetails" finished-at="2022-09-16T16:42:18 IST" duration-ms="2450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createCustomer(java.lang.String,java.lang.String)[pri:4, instance:com.sgtesting.testngprototype.ModifyProjectChromeDemo@58d75e99]" started-at="2022-09-16T16:42:18 IST" name="createCustomer" data-provider="CustomerDetails" finished-at="2022-09-16T16:42:38 IST" duration-ms="19434" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LBRO Customer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LBRO IS SUBPARTNER OF THE BOSCH COMPANY WITH MANUFACTURES QUALITY PRODUCT AND PROVIDES GOOD BUSINESS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method signature="createProject(java.lang.String,java.lang.String)[pri:5, instance:com.sgtesting.testngprototype.ModifyProjectChromeDemo@58d75e99]" started-at="2022-09-16T16:42:38 IST" name="createProject" data-provider="ProjectDetails" finished-at="2022-09-16T16:42:54 IST" duration-ms="16044" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MISSION IMPOSSIBLE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[THIS PROJECT took A LOT Time AND WASTE NO USE ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProject -->
+        <test-method signature="modifyProject(java.lang.String)[pri:6, instance:com.sgtesting.testngprototype.ModifyProjectChromeDemo@58d75e99]" started-at="2022-09-16T16:42:54 IST" name="modifyProject" data-provider="modifiespro" finished-at="2022-09-16T16:43:07 IST" duration-ms="13007" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[REMODIFIED PROJECT DESCRIPTION]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyProject -->
+        <test-method signature="deleteProject()[pri:7, instance:com.sgtesting.testngprototype.ModifyProjectChromeDemo@58d75e99]" started-at="2022-09-16T16:43:07 IST" name="deleteProject" finished-at="2022-09-16T16:43:19 IST" duration-ms="12691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteProject -->
+        <test-method signature="deleteCustomer()[pri:8, instance:com.sgtesting.testngprototype.ModifyProjectChromeDemo@58d75e99]" started-at="2022-09-16T16:43:19 IST" name="deleteCustomer" finished-at="2022-09-16T16:43:32 IST" duration-ms="12649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method signature="logout()[pri:9, instance:com.sgtesting.testngprototype.ModifyProjectChromeDemo@58d75e99]" started-at="2022-09-16T16:43:32 IST" name="logout" finished-at="2022-09-16T16:43:38 IST" duration-ms="5598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="closeBrowser()[pri:10, instance:com.sgtesting.testngprototype.ModifyProjectChromeDemo@58d75e99]" started-at="2022-09-16T16:43:38 IST" name="closeBrowser" finished-at="2022-09-16T16:43:39 IST" duration-ms="1045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.sgtesting.testngprototype.ModifyProjectChromeDemo -->
+      <class name="com.sgtesting.testngprototype.CreateCustomerChromeDemo">
+        <test-method signature="launchBrowser()[pri:1, instance:com.sgtesting.testngprototype.CreateCustomerChromeDemo@7fee8714]" started-at="2022-09-16T16:36:03 IST" name="launchBrowser" finished-at="2022-09-16T16:36:15 IST" duration-ms="11875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate()[pri:2, instance:com.sgtesting.testngprototype.CreateCustomerChromeDemo@7fee8714]" started-at="2022-09-16T16:36:15 IST" name="navigate" finished-at="2022-09-16T16:36:22 IST" duration-ms="7429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.sgtesting.testngprototype.CreateCustomerChromeDemo@7fee8714]" started-at="2022-09-16T16:36:22 IST" name="login" data-provider="loginDetails" finished-at="2022-09-16T16:36:28 IST" duration-ms="5579" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createCustomer(java.lang.String,java.lang.String)[pri:4, instance:com.sgtesting.testngprototype.CreateCustomerChromeDemo@7fee8714]" started-at="2022-09-16T16:36:28 IST" name="createCustomer" data-provider="CustomerDetails" finished-at="2022-09-16T16:36:49 IST" duration-ms="21631" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LBRO Customer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LBRO IS SUBPARTNER OF THE BOSCH COMPANY WITH MANUFACTURES QUALITY PRODUCT AND PROVIDES GOOD BUSINESS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method signature="deleteCustomer()[pri:5, instance:com.sgtesting.testngprototype.CreateCustomerChromeDemo@7fee8714]" started-at="2022-09-16T16:36:49 IST" name="deleteCustomer" finished-at="2022-09-16T16:37:05 IST" duration-ms="15592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method signature="logout()[pri:6, instance:com.sgtesting.testngprototype.CreateCustomerChromeDemo@7fee8714]" started-at="2022-09-16T16:37:05 IST" name="logout" finished-at="2022-09-16T16:37:11 IST" duration-ms="5977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="closeBrowser()[pri:7, instance:com.sgtesting.testngprototype.CreateCustomerChromeDemo@7fee8714]" started-at="2022-09-16T16:37:11 IST" name="closeBrowser" finished-at="2022-09-16T16:37:12 IST" duration-ms="648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.sgtesting.testngprototype.CreateCustomerChromeDemo -->
+      <class name="com.sgtesting.testngprototype.CreateProjectChromeDemo">
+        <test-method signature="launchBrowser()[pri:1, instance:com.sgtesting.testngprototype.CreateProjectChromeDemo@2c35e847]" started-at="2022-09-16T16:37:12 IST" name="launchBrowser" finished-at="2022-09-16T16:37:14 IST" duration-ms="2143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate()[pri:2, instance:com.sgtesting.testngprototype.CreateProjectChromeDemo@2c35e847]" started-at="2022-09-16T16:37:14 IST" name="navigate" finished-at="2022-09-16T16:37:20 IST" duration-ms="6786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.sgtesting.testngprototype.CreateProjectChromeDemo@2c35e847]" started-at="2022-09-16T16:37:20 IST" name="login" data-provider="loginDetails" finished-at="2022-09-16T16:37:23 IST" duration-ms="2556" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createCustomer(java.lang.String,java.lang.String)[pri:4, instance:com.sgtesting.testngprototype.CreateProjectChromeDemo@2c35e847]" started-at="2022-09-16T16:37:23 IST" name="createCustomer" data-provider="CustomerDetails" finished-at="2022-09-16T16:37:43 IST" duration-ms="19882" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LBRO Customer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LBRO IS SUBPARTNER OF THE BOSCH COMPANY WITH MANUFACTURES QUALITY PRODUCT AND PROVIDES GOOD BUSINESS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method signature="createProject(java.lang.String,java.lang.String)[pri:5, instance:com.sgtesting.testngprototype.CreateProjectChromeDemo@2c35e847]" started-at="2022-09-16T16:37:43 IST" name="createProject" data-provider="ProjectDetails" finished-at="2022-09-16T16:37:59 IST" duration-ms="16220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MISSION IMPOSSIBLE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[THIS PROJECT took A LOT Time AND WASTE NO USE ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProject -->
+        <test-method signature="deleteProject()[pri:6, instance:com.sgtesting.testngprototype.CreateProjectChromeDemo@2c35e847]" started-at="2022-09-16T16:37:59 IST" name="deleteProject" finished-at="2022-09-16T16:38:12 IST" duration-ms="12600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteProject -->
+        <test-method signature="deleteCustomer()[pri:7, instance:com.sgtesting.testngprototype.CreateProjectChromeDemo@2c35e847]" started-at="2022-09-16T16:38:12 IST" name="deleteCustomer" finished-at="2022-09-16T16:38:24 IST" duration-ms="12673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method signature="logout()[pri:8, instance:com.sgtesting.testngprototype.CreateProjectChromeDemo@2c35e847]" started-at="2022-09-16T16:38:24 IST" name="logout" finished-at="2022-09-16T16:38:30 IST" duration-ms="5628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="closeBrowser()[pri:9, instance:com.sgtesting.testngprototype.CreateProjectChromeDemo@2c35e847]" started-at="2022-09-16T16:38:30 IST" name="closeBrowser" finished-at="2022-09-16T16:38:31 IST" duration-ms="843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.sgtesting.testngprototype.CreateProjectChromeDemo -->
+      <class name="com.sgtesting.testngprototype.createTaskChromeDemo">
+        <test-method signature="launchBrowser()[pri:1, instance:com.sgtesting.testngprototype.createTaskChromeDemo@7bd4937b]" started-at="2022-09-16T16:38:31 IST" name="launchBrowser" finished-at="2022-09-16T16:38:33 IST" duration-ms="2130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate()[pri:2, instance:com.sgtesting.testngprototype.createTaskChromeDemo@7bd4937b]" started-at="2022-09-16T16:38:33 IST" name="navigate" finished-at="2022-09-16T16:38:40 IST" duration-ms="6543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.sgtesting.testngprototype.createTaskChromeDemo@7bd4937b]" started-at="2022-09-16T16:38:40 IST" name="login" data-provider="loginDetails" finished-at="2022-09-16T16:38:42 IST" duration-ms="2503" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createCustomer(java.lang.String,java.lang.String)[pri:4, instance:com.sgtesting.testngprototype.createTaskChromeDemo@7bd4937b]" started-at="2022-09-16T16:38:42 IST" name="createCustomer" data-provider="CustomerDetails" finished-at="2022-09-16T16:39:02 IST" duration-ms="19713" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LBRO Customer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LBRO IS SUBPARTNER OF THE BOSCH COMPANY WITH MANUFACTURES QUALITY PRODUCT AND PROVIDES GOOD BUSINESS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method signature="createProject(java.lang.String,java.lang.String)[pri:5, instance:com.sgtesting.testngprototype.createTaskChromeDemo@7bd4937b]" started-at="2022-09-16T16:39:02 IST" name="createProject" data-provider="ProjectDetails" finished-at="2022-09-16T16:39:18 IST" duration-ms="16276" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MISSION IMPOSSIBLE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[THIS PROJECT took A LOT Time AND WASTE NO USE ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProject -->
+        <test-method signature="createTask(java.lang.String,java.lang.String)[pri:6, instance:com.sgtesting.testngprototype.createTaskChromeDemo@7bd4937b]" started-at="2022-09-16T16:39:18 IST" name="createTask" data-provider="CreatTask" finished-at="2022-09-16T16:39:33 IST" duration-ms="15022" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sql Mission]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Java MISSIon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTask -->
+        <test-method signature="deleteTask()[pri:7, instance:com.sgtesting.testngprototype.createTaskChromeDemo@7bd4937b]" started-at="2022-09-16T16:39:33 IST" name="deleteTask" finished-at="2022-09-16T16:39:44 IST" duration-ms="10760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTask -->
+        <test-method signature="deleteProject()[pri:8, instance:com.sgtesting.testngprototype.createTaskChromeDemo@7bd4937b]" started-at="2022-09-16T16:39:44 IST" name="deleteProject" finished-at="2022-09-16T16:39:57 IST" duration-ms="12677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteProject -->
+        <test-method signature="deleteCustomer()[pri:9, instance:com.sgtesting.testngprototype.createTaskChromeDemo@7bd4937b]" started-at="2022-09-16T16:39:57 IST" name="deleteCustomer" finished-at="2022-09-16T16:40:09 IST" duration-ms="12729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method signature="logout()[pri:10, instance:com.sgtesting.testngprototype.createTaskChromeDemo@7bd4937b]" started-at="2022-09-16T16:40:09 IST" name="logout" finished-at="2022-09-16T16:40:15 IST" duration-ms="5913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="closeBrowser()[pri:11, instance:com.sgtesting.testngprototype.createTaskChromeDemo@7bd4937b]" started-at="2022-09-16T16:40:15 IST" name="closeBrowser" finished-at="2022-09-16T16:40:16 IST" duration-ms="872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.sgtesting.testngprototype.createTaskChromeDemo -->
+      <class name="com.sgtesting.testngprototype.ModifyUserNameScenarioChromeDemo">
+        <test-method signature="launchBrowser()[pri:1, instance:com.sgtesting.testngprototype.ModifyUserNameScenarioChromeDemo@74751b3]" started-at="2022-09-16T16:43:39 IST" name="launchBrowser" finished-at="2022-09-16T16:43:41 IST" duration-ms="2099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="navigate()[pri:2, instance:com.sgtesting.testngprototype.ModifyUserNameScenarioChromeDemo@74751b3]" started-at="2022-09-16T16:43:41 IST" name="navigate" finished-at="2022-09-16T16:43:47 IST" duration-ms="6282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.sgtesting.testngprototype.ModifyUserNameScenarioChromeDemo@74751b3]" started-at="2022-09-16T16:43:47 IST" name="login" data-provider="loginDetails" finished-at="2022-09-16T16:43:52 IST" duration-ms="4441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.sgtesting.testngprototype.ModifyUserNameScenarioChromeDemo@74751b3]" started-at="2022-09-16T16:43:52 IST" name="createUser" data-provider="UserDetails" finished-at="2022-09-16T16:44:08 IST" duration-ms="16773" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[D]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DemoD@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[DemoD1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[DemoD#123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[DemoD#123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="ModifyUser(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.sgtesting.testngprototype.ModifyUserNameScenarioChromeDemo@74751b3]" started-at="2022-09-16T16:44:08 IST" name="ModifyUser" data-provider="ModidfiedUserDetails" finished-at="2022-09-16T16:44:26 IST" duration-ms="17390" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demo1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[D1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DemoD2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ModifyUser -->
+        <test-method signature="deleteUserName()[pri:6, instance:com.sgtesting.testngprototype.ModifyUserNameScenarioChromeDemo@74751b3]" started-at="2022-09-16T16:44:26 IST" name="deleteUserName" finished-at="2022-09-16T16:44:36 IST" duration-ms="10446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserName -->
+        <test-method signature="logout()[pri:7, instance:com.sgtesting.testngprototype.ModifyUserNameScenarioChromeDemo@74751b3]" started-at="2022-09-16T16:44:36 IST" name="logout" finished-at="2022-09-16T16:44:42 IST" duration-ms="5944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="closeBrowser()[pri:8, instance:com.sgtesting.testngprototype.ModifyUserNameScenarioChromeDemo@74751b3]" started-at="2022-09-16T16:44:42 IST" name="closeBrowser" finished-at="2022-09-16T16:44:43 IST" duration-ms="632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.sgtesting.testngprototype.ModifyUserNameScenarioChromeDemo -->
+    </test> <!-- AllScenarios Execution -->
+  </suite> <!-- Automatiion TEStNG -->
+</testng-results>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Automatiion TEStNG">
+	<test name="AllScenarios Execution">
+		<packages>
+			<package name="com.sgtesting.testngprototype">
+			</package>
+		</packages>
+	</test>
+</suite>
